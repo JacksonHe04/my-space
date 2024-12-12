@@ -140,10 +140,10 @@ export const projectsData = [
       "Super Doctor is a visualized semantic processing platform for natural language processing, which can help users analyze, operate and visualize their data.",
     desc_zh:
       "Super Doctor 是一个基于自然语言处理的可视化医疗语义处理平台，能够帮助用户分析、操作并可视化他们的数据。",
-    tags: ["d3.js", "HTML", "CSS", "Vanilla JavaScript"],
+    tags: ["Vue3", "Express", "Vite", "Tensorflow"],
     imageUrl: visualizationImage,
     projectUrl: "https://github.com/jacksonhe04/SuperDoctor",
-    demoUrl: "https://jackosnhe04.github.io/SuperDoctor/",
+    demoUrl: "https://jacksonhe04.github.io/SuperDoctor/",
   },
 ];
 
