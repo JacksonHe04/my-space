@@ -35,4 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 # 项目排除路径
-/tailwind.config.js
+#/tailwind.config.js
