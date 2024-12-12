@@ -44,27 +44,27 @@ export const headerLanguageMap = {
 };
 
 export const experiencesData = [
-  {
-    title: "Frontend Intern",
-    location: React.createElement(
-      "span",
-      {},
-      React.createElement(
-        "a",
-        {
-          href: "https://xiaomi.com/",
-          style: { textDecoration: "underline" },
-          target: "_blank",
-        },
-        "Xiaomi Inc.",
-      ),
-      " Nanjing, China",
-    ),
-    description:
-      "Deeply participate in web front-end business projects, accurately grasp and lead the development from the communication of requirements, and promote the project. Responsible for online maintenance in related service areas, monitor status and tune performance to ensure efficiency and stability. Select frameworks and optimize components according to technical trends and experience at the architecture design level to improve the advanced and scalable architecture. Communicate closely with multiple teams, and propose technical solutions according to scenarios to promote collaboration. Focus on problem analysis and summary, analyze the root causes, and provide suggestions for R & D process improvement to help the team improve efficiency and quality.",
-    icon: React.createElement(FaVuejs),
-    date: "2025 Feb - 2025 May",
-  },
+  // {
+  //   title: "Frontend Intern",
+  //   location: React.createElement(
+  //     "span",
+  //     {},
+  //     React.createElement(
+  //       "a",
+  //       {
+  //         href: "https://xiaomi.com/",
+  //         style: { textDecoration: "underline" },
+  //         target: "_blank",
+  //       },
+  //       "Xiaomi Inc.",
+  //     ),
+  //     " Nanjing, China",
+  //   ),
+  //   description:
+  //     "Deeply participate in web front-end business projects, accurately grasp and lead the development from the communication of requirements, and promote the project. Responsible for online maintenance in related service areas, monitor status and tune performance to ensure efficiency and stability. Select frameworks and optimize components according to technical trends and experience at the architecture design level to improve the advanced and scalable architecture. Communicate closely with multiple teams, and propose technical solutions according to scenarios to promote collaboration. Focus on problem analysis and summary, analyze the root causes, and provide suggestions for R & D process improvement to help the team improve efficiency and quality.",
+  //   icon: React.createElement(FaVuejs),
+  //   date: "2025 Feb - 2025 May",
+  // },
   {
     title: "Undergraduate in Artificial Intelligence",
     location: "Southeast University, CN",
@@ -76,14 +76,14 @@ export const experiencesData = [
 ];
 
 export const experiencesDataZn = [
-  {
-    title: "前端实习生",
-    location: "小米",
-    description: `深入参与web前端业务项目，从需求的沟通中准确把握和引领发展，推动项目。负责相关服务领域的在线维护，监控状态并调优性能，确保效率和稳定性。根据架构设计层面的技术趋势和经验选择框架并优化组件，以改进先进且可扩展的架构。与多个团队密切沟通，并根据场景提出技术解决方案，促进协作。专注于问题分析和总结，分析根源，为研发流程改进提供建议，帮助团队提高效率和质量。`,
-    icon: React.createElement(FaVuejs),
-    // "icon": React.createElement(FaReact),
-    date: "2025年1月 - 2025年5月",
-  },
+  // {
+  //   title: "前端实习生",
+  //   location: "小米",
+  //   description: `深入参与web前端业务项目，从需求的沟通中准确把握和引领发展，推动项目。负责相关服务领域的在线维护，监控状态并调优性能，确保效率和稳定性。根据架构设计层面的技术趋势和经验选择框架并优化组件，以改进先进且可扩展的架构。与多个团队密切沟通，并根据场景提出技术解决方案，促进协作。专注于问题分析和总结，分析根源，为研发流程改进提供建议，帮助团队提高效率和质量。`,
+  //   icon: React.createElement(FaVuejs),
+  //   // "icon": React.createElement(FaReact),
+  //   date: "2025年1月 - 2025年5月",
+  // },
   {
     title: "人工智能本科在读",
     location: "东南大学",
