@@ -5,6 +5,7 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import { isMobileDevice } from "@/lib/utils";
+import Resume from "@/components/Resume";
 // import Contact from "@/components/Contact"
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function Home() {
       <Skills />
       <Experience isMobile={isMobile} />
       <About />
+        <Resume />
       {/* <Contact /> */}
     </main>
   );
