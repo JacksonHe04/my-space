@@ -24,7 +24,7 @@ export default function Home() {
       <Skills />
       <Experience isMobile={isMobile} />
       <About />
-        <Resume />
+      {/* <Resume /> */}
       {/* <Contact /> */}
     </main>
   );

@@ -44,27 +44,27 @@ export const headerLanguageMap = {
 };
 
 export const experiencesData = [
-  // {
-  //   title: "Frontend Intern",
-  //   location: React.createElement(
-  //     "span",
-  //     {},
-  //     React.createElement(
-  //       "a",
-  //       {
-  //         href: "https://xiaomi.com/",
-  //         style: { textDecoration: "underline" },
-  //         target: "_blank",
-  //       },
-  //       "Xiaomi Inc.",
-  //     ),
-  //     " Nanjing, China",
-  //   ),
-  //   description:
-  //     "Deeply participate in web front-end business projects, accurately grasp and lead the development from the communication of requirements, and promote the project. Responsible for online maintenance in related service areas, monitor status and tune performance to ensure efficiency and stability. Select frameworks and optimize components according to technical trends and experience at the architecture design level to improve the advanced and scalable architecture. Communicate closely with multiple teams, and propose technical solutions according to scenarios to promote collaboration. Focus on problem analysis and summary, analyze the root causes, and provide suggestions for R & D process improvement to help the team improve efficiency and quality.",
-  //   icon: React.createElement(FaVuejs),
-  //   date: "2025 Feb - 2025 May",
-  // },
+  {
+    title: "Full Stack Developer",
+    location: React.createElement(
+      "span",
+      {},
+      React.createElement(
+        "a",
+        {
+          href: "https://palm.seu.edu.cn/",
+          style: { textDecoration: "underline" },
+          target: "_blank",
+        },
+        "SEU PALM Lab",
+      ),
+      " Nanjing, China",
+    ),
+    description:
+      "We have independently developed a postgraduate enrollment management system with separate front and back ends for the laboratory, and will officially put it into use in the summer of 2025 to recruit 2026 laboratory students.",
+    icon: React.createElement(FaVuejs),
+    date: "2024 Oct - 2025 Mar",
+  },
   {
     title: "Undergraduate in Artificial Intelligence",
     location: "Southeast University, CN",
@@ -76,14 +76,14 @@ export const experiencesData = [
 ];
 
 export const experiencesDataZn = [
-  // {
-  //   title: "前端实习生",
-  //   location: "小米",
-  //   description: `深入参与web前端业务项目，从需求的沟通中准确把握和引领发展，推动项目。负责相关服务领域的在线维护，监控状态并调优性能，确保效率和稳定性。根据架构设计层面的技术趋势和经验选择框架并优化组件，以改进先进且可扩展的架构。与多个团队密切沟通，并根据场景提出技术解决方案，促进协作。专注于问题分析和总结，分析根源，为研发流程改进提供建议，帮助团队提高效率和质量。`,
-  //   icon: React.createElement(FaVuejs),
-  //   // "icon": React.createElement(FaReact),
-  //   date: "2025年1月 - 2025年5月",
-  // },
+  {
+    title: "全栈开发者",
+    location: "东南大学 PALM Lab",
+    description: `独立为实验室开发了前后端分离的研究生招生管理系统，并将于2025年夏天正式投入使用，用于招收2026级实验室推免生。`,
+    icon: React.createElement(FaVuejs),
+    // "icon": React.createElement(FaReact),
+    date: "2024年10月 - 2025年3月",
+  },
   {
     title: "人工智能本科在读",
     location: "东南大学",
@@ -103,11 +103,21 @@ export const projectsData = [
     description:
       "It aims to promote the collaborative platform of the Pattern Recognition and Data Mining Laboratory of Southeast University in managing graduate applications. The platform integrates applicant front-end, back-end login and management, data lake visualization, resume AI scoring, interview scoring mechanism, and responsive design focusing on accessibility.",
     desc_zh:
-      "旨在促进东南大学模式识别与数据挖掘实验室在管理研究生申请的协作平台。该平台集成申请者前台、后台登录与管理、数据可视化、简历AI评分、面试打分机制以及注重可访问性的响应式设计。",
+      "旨在促进东南大学模式识别与数据挖掘实验室在管理研究生申请的协作平台。该平台集成申请者前台、后台登录与管理、数据可视化、简历评测、面试打分机制以及注重可访问性的响应式设计。",
     tags: ["Vue3", "TypeScript", "SCSS", "Vite", "Django"],
     imageUrl: knowledgeSharingPlatformImage,
-    projectUrl: "https://github.com/jackosnhe04/PalmAdmissionsSystem",
+    projectUrl: "https://github.com/jackosnhe04/palm-ams",
     demoUrl: "https://palm-admissions-system.vercel.app",
+  },
+  {
+    title: "LIKEN - AI Chat System",
+    title_zh: "LIKEN - 大模型对话系统",
+    description: "A modern AI chat system built with Next.js 14 and TypeScript, featuring server-side rendering (SSR), global state management with React Context, and local message persistence with IndexedDB. Integrates with Wenxin and OpenAI APIs for real-time intelligent conversations.",
+    desc_zh: "基于 Next.js 14 的 App Router 实现了服务端渲染(SSR)，采用 Next.js API Routes 构建后端接口。基于 React Context 进行全局会话状态管理，实现新建会话自动在侧栏更新会话列表。使用 IndexedDB 实现浏览器本地消息持久化，并支持对话历史记录管理。使用 React Markdown 实时渲染回答结果，支持代码高亮显示和复制功能。基于 SSE 实现流式对话响应，集成火山方舟大模型 API 与 OpenAI SDK 构建实时智能对话功能。",
+    tags: ["React", "Next.js", "TypeScript", "Shadcn UI"],
+    imageUrl: visualizationImage,
+    projectUrl: "https://github.com/JacksonHe04/liken",
+    demoUrl: "https://liken.vercel.app"
   },
   {
     title: "BingWenBookStore",
@@ -115,10 +125,10 @@ export const projectsData = [
     description:
       "Developed and implemented various page layouts and interactive effects, making it easier for users to browse and find different types of books. At the same time, I was also responsible for developing and implementing user login, shopping cart and settlement and payment functions, and can adjust and delete the quantity of shopping cart items. At the same time, I developed a Q & A system based on a large model, including the front-end development of the Q & A system and the call and deployment of the large model.",
     desc_zh:
-      "开发并实现了各种页面布局和交互效果，使得用户能够更加方便地浏览和查找不同类型的图书。同时，我还负责开发并实现了用户登录、购物车和结算支付功能，并且可以对购物车商品进行数量的调整和删除操作。与此同时，我开发了基于大模型的问答系统，包括了问答系统的前端开发和大模型的调用与部署。",
+      "开发并实现了各种页面布局和交互效果，使得用户能够更加方便地浏览和查找不同类型的图书。同时，我还负责开发并实现了用户登录、购物车和结算支付功能，并且可以对购物车商品进行数量的调整和删除操作。",
     tags: ["Vue3", "Pinia", "Element Plus", "Vite"],
     imageUrl: typingSpeedImage,
-    projectUrl: "https://github.com/jacksonhe04/BingWenBookStore",
+    projectUrl: "https://github.com/jacksonhe04/bing-wen-book-store",
     demoUrl: "https://bing-wen-book-store.vercel.app/",
   },
   {
@@ -134,16 +144,14 @@ export const projectsData = [
     demoUrl: "https://inon.vercel.app/",
   },
   {
-    title: "Super Doctor",
-    title_zh: "Super Doctor: 可视化的语义处理平台",
-    description:
-      "Super Doctor is a visualized semantic processing platform for natural language processing, which can help users analyze, operate and visualize their data.",
-    desc_zh:
-      "Super Doctor 是一个基于自然语言处理的可视化医疗语义处理平台，能够帮助用户分析、操作并可视化他们的数据。",
-    tags: ["Vue3", "Express", "Vite", "Tensorflow"],
+    title: "VoxC - Decentralized Music Rating Platform",
+    title_zh: "VoxC - 去中心化音乐评分平台",
+    description: "A decentralized music rating platform based on blockchain technology, aiming to create a fair and transparent music evaluation ecosystem. The platform ensures that every user's voice can be fairly recorded and evaluated through decentralized technology, featuring a community-driven governance mechanism.",
+    desc_zh: "一个基于区块链技术的去中心化音乐评分平台，旨在打造一个公平、透明的音乐评价生态系统。平台通过去中心化技术确保每个用户的声音都能被公平记录和评估，具有社区驱动的治理机制。",
+    tags: ["React", "TypeScript", "Vite", "Nest.js", "Node.js"],
     imageUrl: visualizationImage,
-    projectUrl: "https://github.com/jacksonhe04/SuperDoctor",
-    demoUrl: "https://jacksonhe04.github.io/SuperDoctor/",
+    projectUrl: "https://github.com/jacksonhe04/voxc",
+    demoUrl: "https://voxc.vercel.app"
   },
 ];
 
