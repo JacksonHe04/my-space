@@ -2,11 +2,11 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import knowledgeSharingPlatformImage from "@/public/knowledge-sharing-platform.png";
+import palm from "@/public/palm-1.png";
 import breadditImage from "@/public/breaddit.png";
 import gameHubImage from "@/public/game-hub.png";
 import typingSpeedImage from "@/public/typing-speed.png";
-import visualizationImage from "@/public/d3.png";
+import liken from "@/public/liken.png";
 
 export const links = [
   {
@@ -105,7 +105,7 @@ export const projectsData = [
     desc_zh:
       "旨在促进东南大学模式识别与数据挖掘实验室在管理研究生申请的协作平台。该平台集成申请者前台、后台登录与管理、数据可视化、简历评测、面试打分机制以及注重可访问性的响应式设计。",
     tags: ["Vue3", "TypeScript", "SCSS", "Vite", "Django"],
-    imageUrl: knowledgeSharingPlatformImage,
+    imageUrl: palm,
     projectUrl: "https://github.com/jackosnhe04/palm-ams",
     demoUrl: "https://palm-admissions-system.vercel.app",
   },
@@ -115,7 +115,7 @@ export const projectsData = [
     description: "A modern AI chat system built with Next.js 14 and TypeScript, featuring server-side rendering (SSR), global state management with React Context, and local message persistence with IndexedDB. Integrates with Wenxin and OpenAI APIs for real-time intelligent conversations.",
     desc_zh: "基于 Next.js 14 的 App Router 实现了服务端渲染(SSR)，采用 Next.js API Routes 构建后端接口。基于 React Context 进行全局会话状态管理，实现新建会话自动在侧栏更新会话列表。使用 IndexedDB 实现浏览器本地消息持久化，并支持对话历史记录管理。使用 React Markdown 实时渲染回答结果，支持代码高亮显示和复制功能。基于 SSE 实现流式对话响应，集成火山方舟大模型 API 与 OpenAI SDK 构建实时智能对话功能。",
     tags: ["React", "Next.js", "TypeScript", "Shadcn UI"],
-    imageUrl: visualizationImage,
+    imageUrl: liken,
     projectUrl: "https://github.com/JacksonHe04/liken",
     demoUrl: "https://liken.vercel.app"
   },
@@ -149,7 +149,7 @@ export const projectsData = [
     description: "A decentralized music rating platform based on blockchain technology, aiming to create a fair and transparent music evaluation ecosystem. The platform ensures that every user's voice can be fairly recorded and evaluated through decentralized technology, featuring a community-driven governance mechanism.",
     desc_zh: "一个基于区块链技术的去中心化音乐评分平台，旨在打造一个公平、透明的音乐评价生态系统。平台通过去中心化技术确保每个用户的声音都能被公平记录和评估，具有社区驱动的治理机制。",
     tags: ["React", "TypeScript", "Vite", "Nest.js", "Node.js"],
-    imageUrl: visualizationImage,
+    imageUrl: liken,
     projectUrl: "https://github.com/jacksonhe04/voxc",
     demoUrl: "https://voxc.vercel.app"
   },
